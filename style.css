@@ -180,3 +180,71 @@ ul li.active a{
     border-radius: 2px;
 
 }
+
+.service{
+    display: none;
+    top:5.8%;
+    position: relative;
+}
+
+.service ul{
+    position: absolute;
+
+}
+
+.menu ul li:hover .service{
+    display: block;
+    position: absolute;
+    background-color: #000;
+    margin-top: 17px;
+    margin-left: -80px;
+}
+
+.menu ul li:hover .service ul{
+    display: block;
+    margin: 5px;
+}
+
+.menu ul list-style:hover .service ul i{
+    width: 110px;
+    padding: 120px;
+    border-bottom:1px #fff;
+    background: #000;
+    transition: 0.4s ease;
+    text-align: left;
+    border-radius:0 ;
+}
+
+.connect{
+    display: none;
+    top:5.8%;
+    position: relative;
+}
+
+.connect ul{
+    position: absolute;
+
+}
+
+.menu ul li:hover .connect{
+    display: block;
+    position: absolute;
+    background-color: #000;
+    margin-top: 17px;
+    margin-left: -80px;
+}
+
+.menu ul li:hover .connect ul{
+    display: block;
+    margin: 5px;
+}
+
+.menu ul list-style:hover .connect ul i{
+    width: 110px;
+    padding: 120px;
+    border-bottom:1px #fff;
+    background: #000;
+    transition: 0.4s ease;
+    text-align: left;
+    border-radius:0 ;
+}
